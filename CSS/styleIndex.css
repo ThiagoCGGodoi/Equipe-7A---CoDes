@@ -14,47 +14,31 @@ header{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    font-style: normal;
-    text-decoration: underline;
 }
 main{
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.8rem;
 }
-.inputbox{
-    height: 2rem;
-    width: 25rem;
-    border-radius: 0.8rem;
-}
-.inputs{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1.6rem;
-}
-.labels{
+.subtitle{
     font-size: 3rem;
     font-weight: bold;
 }
-.divider{
-    width: 90%;
-    height: 0.5rem;
-    background-color: black;
+.footnote{
+    font-size: 1.6rem;
+    font-weight: lighter;
 }
 .logo{
     height: 37rem;
     width: 30rem;
 }
-
+.organizer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 footer{
     display: flex;
     width: 100%;
@@ -71,7 +55,7 @@ footer{
     border-radius: 9px;
     color: #000000;
     font-size: 4rem;
-    background: #787474;
+    background: #f0849c;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     font-weight: bold;
