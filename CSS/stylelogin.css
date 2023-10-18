@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+html{
+    background-color: #d0bcc4;
+    font-family: "Bree Serif",sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.orange {
+    border-radius: 1%;
+    color: #000000;
+    font-size: 1rem;
+    background: #f0849c;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
+
