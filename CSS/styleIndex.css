@@ -16,19 +16,17 @@ main{
     flex-direction: column;
 }
 .subtitle{
-    margin-left: 10%;
+    margin-left: 13%;
     font-size: 3rem;
     font-weight: bold;
 }
 .footnote{
-    margin-left: 10%;
+    margin-left: 13%;
     font-size: 1.6rem;
     font-weight: lighter;
 }
 .btn {
-    -webkit-border-radius: 9;
-    -moz-border-radius: 9;
-    border-radius: 8%;
+    border-radius: 7%;
     color: #000000;
     font-size: 4rem;
     background: #f0849c;
@@ -37,11 +35,8 @@ main{
     text-decoration: none;
     font-weight: bold;
 }
-section{    
-    display: flex;
-    flex-direction: column;
-}
 .principal{    
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }
