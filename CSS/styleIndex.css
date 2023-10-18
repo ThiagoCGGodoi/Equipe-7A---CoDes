@@ -29,10 +29,6 @@ main{
     font-size: 1.6rem;
     font-weight: lighter;
 }
-.logo{
-    height: 37rem;
-    width: 30rem;
-}
 .organizer{
     display: flex;
     flex-direction: column;
