@@ -45,12 +45,30 @@ ul{border-bottom: 1px solid black;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
 }
-
+.gray {
+    width: 13rem;
+    border-radius: 1%;
+    color: #000000;
+    font-size: 1rem;
+    background: #747070;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
 .first{ display: flex;
     flex-direction: row;
     border: 1px solid black;
     border-top: 1px solid black;
+    font-size: 0.6rem;
 
+
+}
+footer{display: flex;
+    flex-direction: column;
+    width: 13rem;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
