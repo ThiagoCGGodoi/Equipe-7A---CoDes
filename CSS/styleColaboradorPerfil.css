@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 html {
     background-color: #d0bcc4;
     font-family: "Bree Serif", sans-serif;
@@ -13,26 +14,27 @@ main {
     left: 5%;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     margin-bottom: 5%;
 }
 
-.logo{
+.logo {
     margin-top: 8%;
     margin-left: 8%;
     height: 20%;
     width: 20%;
 }
 
-.user{
+.user {
     margin-right: 35%;
     margin-top: 28%;
-    height: 30%;
-    width: 30%;
+    height: 35%;
+    width: 36%;
 }
+
 .person {
     position: relative;
     top: 2rem;
@@ -40,6 +42,7 @@ header{
     height: 13rem;
 
 }
+
 .info {
     display: flex;
     flex-direction: column;
@@ -51,11 +54,11 @@ header{
 
 footer {
     position: absolute;
-    top: 100rem;
+    top: 95rem;
     display: flex;
     flex-direction: row;
-    width: 18rem;
-    left: 3%;
+    width: 40rem;
+    left: 20%;
     bottom: 5%
 }
 
@@ -71,39 +74,121 @@ a {
 }
 
 .btn {
-    position: relative;
-    top: -43%;
-    left: 70%;
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-right: 1%;
-    color: #000000;
-    font-size: 2.3rem;
-    font-weight: bold;
-    font-family: 'Bree Serif', serif;
-}
-.btn2 {
-    border-radius: 7%;
+    width: 45%;
+    height: 3rem;
     color: #000000;
     font-size: 3rem;
     background: #f0849c;
     margin: 10% 50% 4% 10%;
+    padding: 8% 1% 5% 8%;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.btn2 {
+    width: 45%;
+    color: #000000;
+    font-size: 3rem;
+    background: #f0849c;
+    margin: 10% 50% 4% 9%;
     padding: 5% 1% 5% 10%;
     text-decoration: none;
     font-weight: bold;
 }
 
-.liGrey {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.btn3 {
+    width: 45%;
+    height: 5rem;
+    color: #000000;
+    font-size: 3rem;
+    background: #f0849c;
+    margin: 10% 50% 4% 11%;
+    padding: 8% 1% 5% 8%;
+    text-decoration: none;
+    font-weight: bold;
 
-    font-size: 1.2rem;
-    font-family: 'Bree Serif', serif;
-    color: #6E6E6E;
 }
+
+.btn4 {
+    border-radius: 0.8rem;
+    width: 22rem;
+    height: 7rem;
+    color: #000000;
+    font-size: 2.8rem;
+    background: #f0849c;
+
+    padding-top: 8%;
+    padding-left: 8%;
+    margin-top: 10%;
+    margin-left: 25%;
+
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
 
 ul {
     display: flex;
     flex-direction: column;
+}
+
+.align {
+    padding-left: 20%;
+
+
+}
+
+.align2 {
+    position: relative;
+    left: -10%;
+
+
+}
+
+.text1 {
+    position: relative;
+    font-size: 3.5rem;
+    color: #6E6E6E;
+    top: -9rem;
+    left: 30rem;
+
+
+}
+
+
+.text2 {
+    position: relative;
+    font-size: 3.5rem;
+    color: #6E6E6E;
+    top: -9rem;
+    left: 32rem;
+
+
+}
+
+
+.text3 {
+    position: relative;
+    font-size: 3.5rem;
+    color: #6E6E6E;
+    top: -9rem;
+    left: 32rem;
+
+
+}
+
+.seta {
+    position: absolute;
+    top: 18rem;
+    left: -7rem;
+
+}
+
+.size {
+    width: 15rem;
+    height: 15rem;
+
+
 }
