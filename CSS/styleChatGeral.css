@@ -1,60 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 
-html{
+html {
     background-color: #d0bcc4;
-    font-family: "Bree Serif",sans-serif;
+    font-family: "Bree Serif", sans-serif;
     height: 100%;
     width: 100%;
 }
 
-header {display: flex;
+header {
+    display: flex;
     justify-content: center;
     padding-bottom: 5%;
-    
+
 
 }
 
 
-main{display: flex;
+main {
+    display: flex;
     justify-content: flex-start;
     position: relative;
     left: 5%;
 
 
 }
-section{ 
-    padding: 2%;
 
-}
 
-.bell{position: relative;
-    top:-60%;
+.bell {    height: 8rem;
+    width: 8rem;
+    position: relative;
+    top: -64%;
     left: 5%;
 
 }
 
-.logo{position: relative;
-        top:5%;
+.logo {
+    height: 37rem;
+    width: 30rem;
+    position: relative;
+    top: 5%;
 
-    
+
 }
 
-button {position: relative;
-    top: -55%;
-    width: 20rem;
-    color: #000000;
-    font-size: 1.3rem;
-    background: #E9819C;
-    padding: 1%;
-    font-weight: bold;
-    font-family: 'Bree Serif', serif;
-    border-radius: 0.5rem;
+.person {
+    position: relative;
+    top: 2rem;
+    width: 13rem;
+    height: 13rem;
+
 }
 
-
-
-.icones{  display: flex;
+.icones {
+    display: flex;
     flex-direction: column;
     height: 40rem;
     width: 40rem;
@@ -62,16 +61,69 @@ button {position: relative;
 
 }
 
-footer{position: absolute;
-    top:100rem;
+footer {
+    position: absolute;
+    top: 100rem;
     display: flex;
     flex-direction: row;
     width: 18rem;
-    left: 5%;
-    bottom:5%
+    left: 3%;
+    bottom: 5%
 }
 
-.separe{ position: absolute;
+.separe {
+    position: absolute;
     left: 45rem;
     top: -0.5rem;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.btn {
+    border-radius: 0.5rem;
+    border: transparent;
+    background: #E9819C;
+    width: 20rem;
+    position: relative;
+    top: -43%;
+    left: 50%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 1%;
+    color: #000000;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+
+
+}
+
+.liGrey {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 1.2rem;
+    font-family: 'Bree Serif', serif;
+    color: #6E6E6E;
+    margin-top: 5%;
+
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.br {
+    height: 2rem;
+    display: block;
+    line-height: 300%;
+
 }

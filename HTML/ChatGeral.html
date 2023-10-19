@@ -1,46 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="../CSS/reset.css">
-        <link rel="stylesheet" href="../CSS/styleChatGeral.css">
-        <link rel="stylesheet" href="../CSS/stylelogo.css">
-        <title>QFloral</title> 
-    </head>
-    <body>
-        <header>
-            <figure >
-                <img  class='logo' src="imagens/QFloral_logo.png" alt="QFloral Logo" width="510" height="540">
-                <img class="bell" src="imagens/Bell_off.png" alt="Bell Icon" width="190" height="190">
-            </figure>
-        </header>
-        <main>
-            <figure class="icones">
-                <section>
-                    <img src="imagens/person_icone.png" alt="Person Icon" width="280" height="280">
-                    <button onclick="window.location.href = 'Tela_conversa_joao.html';" >João</button>
-                </section>
-                <section>
-                <img src="imagens/person_icone.png" alt="Person Icon" width="280" height="280">
-                <button onclick="window.location.href = 'Tela_conversa_fabio.html';">Fábio</button>
-                </section>
-                <section>
-                <img src="imagens/person_icone.png" alt="Person Icon" width="280" height="280">
-                <button onclick="window.location.href = 'Tela_conversa_renato.html';">Renato</button>
-            </figure>
-        </section>
-        </main>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/styleChatGeral.css">
+    
+    <link rel="stylesheet" href="../CSS/stylelogo.css">
+    <title>QFloral</title>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img class='logo' src="imagens/QFloral_logo.png" alt="QFloral Logo" width="510" height="540">
+            <img class="bell" src="imagens/Bell_off.png" alt="Bell Icon" width="190" height="190">
+        </figure>
+    </header>
+    <main>
+        <figure class="icones">
+            <section>
+                <a href='Tela_conversa_joao.html'><img class='person' src="imagens/person_icone.png" alt="Person Icon">
+                    <section class="btn">
+                        <ul>
+                            <li>João</li>
+                            <li class="br"><br></br></li>
+                            <li class="liGrey">
+                                <p>Bom dia, Doutor</p>
+
+                                <p> 09:37</p>
+                            </li>
+                            <li class="liGrey"></li>
+                        </ul>
+                    </section>
+                </a>
+            </section>
+            <section>
+                <a href='Tela_conversa_renato.html'><img class='person' src="imagens/person_icone.png" alt="Person Icon"
+                        width="280" height="280">
+                    <section class="btn">
+                        <ul>
+                            <li>Fábio</li>
+                            <li class="br"><br></br></li>
+                            <li class="liGrey">
+                                <p>Meus florais já estão acab...</p>
+                                <p> 08:43</p>
+                            </li>
+                            <li class="liGrey"></li>
+                        </ul>
+                    </section>
+                </a>
+            </section>
+            <section>
+                <a href='Tela_conversa_renato.html'><img class='person' src="imagens/person_icone.png" alt="Person Icon"
+                        width="280" height="280">
+                    <section class="btn">
+                        <ul>
+                            <li>Renato</li>
+                            <li class="br"><br></br></li>
+                            <li class="liGrey">
+                                <p>Bom Tarde, Doutor!</p>
+                                <p> 15:56</p>
+                            </li>
+                            <li class="liGrey"></li>
+                        </ul>
+                    </section>
+                </a>
+            </section>
+    </main>
 
 
     <footer>
 
-        <figure >
+        <figure>
             <a href="tela_pos_login.html">
                 <img src="imagens/arrow_icone.png" alt="Arrow Icon" width="120" height="120">
             </a>
-            <img class="separe" src="imagens/person_icone.png" alt="Person Icon" width="120" height="120" onclick="window.location.href = 'perfil_DrAndre.html';">
+            <a href="tela_pos_login.html">
+                <img class="separe" src="imagens/person_icone.png" alt="Person Icon" width="120" height="120">
+            </a>
         </figure>
 
     </footer>
-    </body>
+</body>
+
 </html>
