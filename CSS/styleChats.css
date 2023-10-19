@@ -7,31 +7,65 @@ html {
     height: 100%;
     width: 100%;
 }
-header {padding-top: 5%;
+
+header {
+    padding-top: 10%;
+    padding-left: 3%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: baseline;
-    padding-bottom: 5%;
+
+
+    font-size: 4rem;
+    font-weight: bold;
 
 
 }
 
-.logo{ position: relative;
-    top:-5%;
+.logo {
+    position: relative;
+    top: -5%;
     padding-left: 5%;
     height: 12rem;
     width: 10rem;
 }
 
-.person{ 
+.person {
     padding-left: -5%;
     height: 30rem;
     width: 30rem;
 }
 
-section{ border: solid black;
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
+main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: self-start;
+    padding-left: 5%;
+
+}
+
+.btn {
+    border: transparent;
+    align-items: self-start;
+    border-radius: 0.8rem;
+    background: #E1C3D3;
+    width: 32rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 1%;
+    color: #47525E;
+    font-size: 2rem;
+ 
+    font-family: 'Bree Serif', serif;
+
+
+
+}
