@@ -4,8 +4,8 @@
 html {
     background-color: #d0bcc4;
     font-family: "Bree Serif",sans-serif;
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
     
 }
 
@@ -14,43 +14,106 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-top: 5%;
 }
 header {display: flex;
     justify-content: center;
     padding-bottom: 5%;
+    
 
 }
 
 main { display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 
 }
 
+button{ border-radius: 1rem;
+    border:solid #d0bcc4;
 
 
-ul{border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    padding: 10%;
+}
+
+ul{
+    padding: 4.0%;
+}
+section{ width: 20rem;
+    border-bottom:  0.5rem solid  black;
+    line-height: 18%;
+
+
+}
+input{
+    border: solid #d0bcc4 ;
+    font-size: 1.3rem;
+    width: 21rem;
+    height: 2.2rem;
+    border-radius: 0.5rem;
+    margin-top: 1%;
+
+}
+.letter{ 
+    display: inline-block;
+    font-size: 1.3rem;
+    position: absolute;
+    top:22.5%;
+
+    
 }
 .orange {
-    width: 13rem;
-    border-radius: 1%;
+    width: 20rem;
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.3rem;
     background: #ED9393;
     padding: 1%;
-    text-decoration: none;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
 }
 
+a{text-decoration: none;
+
+}
+.orange1 {
+    width: 16rem;
+    color: #000000;
+    font-size: 1.3rem;
+    background: #ED9393;
+    padding: 1%;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
+.gray { margin-top: -5%;
+    width: 18rem;
+    font-size: 1.8rem;
+    background: #747070;
+    padding: 1%;
+    font-family: 'Bree Serif', serif;
+
+}
+.white {
+    margin-top: 1%;
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    background: white;
+    padding: 1%;
+    font-family: 'Bree Serif', serif;
+    border-radius: 0.5rem;
+    
+
+}
 .first{ display: flex;
     flex-direction: row;
-    border: 1px solid black;
-    border-top: 1px solid black;
 
 
+}
+footer{display: flex;
+    flex-direction: column;
+    width: 18rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
