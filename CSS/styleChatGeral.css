@@ -32,7 +32,12 @@ section{
     top:-60%;
     left: 5%;
 
+}
 
+.logo{position: relative;
+        top:5%;
+
+    
 }
 
 button {position: relative;

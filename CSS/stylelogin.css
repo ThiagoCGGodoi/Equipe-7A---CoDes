@@ -4,8 +4,8 @@
 html {
     background-color: #d0bcc4;
     font-family: "Bree Serif",sans-serif;
-    height: 50%;
-    width: 50%;
+    height: 90%;
+    width: 90%;
     
 }
 
@@ -40,33 +40,34 @@ button{ border-radius: 1rem;
 ul{
     padding: 4.0%;
 }
-section{ width: 20rem;
+section{ width: 40rem;
     border-bottom:  0.5rem solid  black;
     line-height: 18%;
+    margin-top: 5%;
 
 
 }
 input{
     border: solid #d0bcc4 ;
-    font-size: 1.3rem;
-    width: 21rem;
+    font-size: 2rem;
+    width: 31rem;
     height: 2.2rem;
     border-radius: 0.5rem;
-    margin-top: 1%;
+    margin-top: 4%;
 
 }
 .letter{ 
     display: inline-block;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     position: absolute;
-    top:22.5%;
+    top:58%;
 
     
 }
 .orange {
-    width: 20rem;
+    width: 40rem;
     color: #000000;
-    font-size: 1.3rem;
+    font-size: 2.9rem;
     background: #ED9393;
     padding: 1%;
     font-weight: bold;
@@ -77,17 +78,17 @@ a{text-decoration: none;
 
 }
 .orange1 {
-    width: 16rem;
+    width: 36rem;
     color: #000000;
-    font-size: 1.3rem;
+    font-size: 2.9rem;
     background: #ED9393;
     padding: 1%;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
 }
 .gray { margin-top: -5%;
-    width: 18rem;
-    font-size: 1.8rem;
+    width: 28rem;
+    font-size: 2.8rem;
     background: #747070;
     padding: 1%;
     font-family: 'Bree Serif', serif;
@@ -95,13 +96,13 @@ a{text-decoration: none;
 }
 .white {
     margin-top: 1%;
-    width: 15rem;
-    height: 2rem;
-    font-size: 1.5rem;
+    width: 30rem;
+    height: 3.5rem;
+    font-size: 2.5rem;
     background: white;
-    padding: 1%;
+    padding-top: 5%;
     font-family: 'Bree Serif', serif;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     
 
 }
@@ -110,9 +111,12 @@ a{text-decoration: none;
 
 
 }
-footer{display: flex;
+footer{position: absolute;
+    top: 100rem;
+    font-size: 2.1rem;
+    display: flex;
     flex-direction: column;
-    width: 18rem;
+    width: 38rem;
     align-items: center;
     justify-content: space-between;
 }
