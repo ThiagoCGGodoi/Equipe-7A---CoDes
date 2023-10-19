@@ -40,3 +40,7 @@ main{
     flex-direction: column;
     text-decoration: none;
 }
+.logo{
+    height: 37rem;
+    width: 30rem;
+}
