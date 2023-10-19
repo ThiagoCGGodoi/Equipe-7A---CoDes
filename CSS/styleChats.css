@@ -69,3 +69,18 @@ main {
 
 
 }
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 5%;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+}
+
+.icones {
+    width: 250px;
+    height: 250px; 
+}
