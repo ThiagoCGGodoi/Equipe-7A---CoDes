@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="../CSS/reset.css">
-        <link rel="stylesheet" href="../CSS/styleCadastro.css">
-        <title>QFloral</title>    
-    </head>
-    <body>
-        <figure>
-            <img src="imagens/QFloral_logo.png" alt="QFloral Logo">
-            <img src="imagens/Bell_off.png" alt="Bell Icon" width="90" height="90">
-        </figure>
-    
-        <p>Nome: André</p>
-        <p>Data de Nascimento: XX/XX/XXXX</p>
-        <p>Senha: ********</p>
-        <button onclick="window.location.href = 'tela_suporte.html';">Ajuda e Suporte</button>
-    
-        <figure>
-            <a href="tela_pos_login.html">
-                <img src="imagens/arrow_icone.png" alt="Arrow Icon" width="80" height="80">
-            </a>
-            <img src="imagens/mail-send_icone.png" alt="Mail Icon" width="90" height="90" onclick="window.location.href = 'Tela_chat.html';">
-        </figure>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/styleColaboradorPerfil.css">
+    <title>QFloral</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <img class="logo" src="imagens/QFloral_logo.png" alt="QFloral Logo">
+            </li>
+        </ul>
+
+        <img class="user" src="imagens/person_icone.png" alt="Person Icon">
+    </header>
+
+    <main>
+        <ul>
+            <li>
+                <h1>Renato</h1>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a class="principal" href="HistoricoDeRespostasRenato.html">
+                    <p class="btn"> Histórico de respostas </p>
+                </a>
+                <a class="principal" href="FloraisPrescritosRenato.html">
+                    <p class="btn"> Florais prescritos </p>
+                </a>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <a href="Colaborador.html">
+            <img class="icones" src="imagens/arrow_icone.png" alt="Arrow Icon">
+        </a>
+        <a href="ChatGeral.html">
+            <img class="icones" src="imagens/mail-send_icone.png" alt="Mail Icon">
+        </a>
+        <a href="ColaboradorPerfil.html">
+            <img class="icones" src="imagens/person_icone.png" alt="Person Icon">
+        </a>
+    </footer>
+</body>
+
 </html>
+
+<p>Nome: André</p>
+<p>Data de Nascimento: XX/XX/XXXX</p>
+<p>Senha: ********</p>
