@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
 
 html {
-    background-color: #d0bcc4;
+    background-color: white;
     font-family: "Bree Serif",sans-serif;
     height: 90%;
     width: 90%;
@@ -70,9 +70,9 @@ input{
 }
 .orange {
     width: 40rem;
-    color: #000000;
+    color: white;
     font-size: 2.9rem;
-    background: #ED9393;
+    background: #384652;
     padding: 1%;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
@@ -86,18 +86,20 @@ a{text-decoration: none;
 .orange1 {
     margin-left: 5%;
     width: 36rem;
-    color: #000000;
+    color: white;
     font-size: 2.9rem;
-    background: #ED9393;
+    background: #384652;
     padding: 1%;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
 }
-.gray { gap:1rem;
+.gray { 
+    color: white;
+    gap:1rem;
     margin-top: 10%;
     width: 25rem;
     font-size: 2.8rem;
-    background: #747070;
+    background: #60738c;
     padding: 4%;
     font-family: 'Bree Serif', serif;
 

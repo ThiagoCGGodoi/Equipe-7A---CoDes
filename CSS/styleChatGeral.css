@@ -3,7 +3,7 @@
 
 
 html {
-    background-color: #d0bcc4;
+    background-color: white;
     font-family: "Bree Serif", sans-serif;
     height: 100%;
     width: 100%;
@@ -88,12 +88,12 @@ a {
 .btn {
     border-radius: 0.5rem;
     border: transparent;
-    background: #E9819C;
+    background: #60738c;
     width: 20rem;
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 1%;
-    color: #000000;
+    color: white;
     font-size: 2.3rem;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
@@ -108,7 +108,7 @@ a {
 
     font-size: 1.2rem;
     font-family: 'Bree Serif', serif;
-    color: #6E6E6E;
+    color: #b8b8b8;
     margin-top: 5%;
     padding-bottom: 2%;
 
