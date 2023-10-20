@@ -19,12 +19,13 @@ main{
 }
 .subtitle{
     margin-left: 13%;
-    font-size: 3rem;
+    margin-bottom: 5%;
+    font-size: 3.5rem;
     font-weight: bold;
 }
 .footnote{
     margin-left: 13%;
-    font-size: 1.6rem;
+    font-size: 2.1rem;
     font-weight: lighter;
 }
 .btn {
@@ -45,4 +46,7 @@ main{
 .logo{
     height: 37rem;
     width: 30rem;
+}
+p{
+    font-family: 'Roboto', sans-serif;
 }
