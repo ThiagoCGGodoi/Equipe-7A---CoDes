@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
 
 html {
-    background-color: #d0bcc4;
+    background-color: white;
     font-family: "Bree Serif", sans-serif;
     height: 100%;
     width: 100%;
@@ -64,9 +64,9 @@ a {
     width: 45%;
     height:auto;
     min-height: 120px;
-    color: #000000;
+    color: white;
     font-size: 3rem;
-    background: #f0849c;
+    background: #60738c;
     text-decoration: none;
     font-weight: bold;
 }
@@ -75,9 +75,9 @@ a {
     width: 45%;
     height:auto;
     min-height: 120px;
-    color: #000000;
+    color: white;
     font-size: 3rem;
-    background: #f0849c;
+    background: #60738c;
     text-decoration: none;
     font-weight: bold;
     border-radius: 0.8rem;

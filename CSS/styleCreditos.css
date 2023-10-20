@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
 html{
-    background-color: white;
+    background-color: #d0bcc4;
     font-family: "Bree Serif",sans-serif;
     height: 100%;
     width: 100%;
@@ -30,30 +30,23 @@ header{
 }
 h1{
     display: flex;
-    margin-top: 10%;
     justify-content: center;
-    font-size: 4rem;
-    font-weight: bold;
 }
 .btn {
     border-radius: 7%;
-    color: white;
+    color: #000000;
     font-size: 3rem;
-    background: #60738c;
+    background: #f0849c;
     margin: 10% 10% 4% 10%;
     padding: 5% 10% 5% 10%;
     text-decoration: none;
     font-weight: bold;
 }
-.principal{    
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-}
+
 footer {
     display: flex;
     justify-content: space-around;
-    margin-top: 15%;
+    margin-bottom: 1%;
 }
 a{
     text-decoration: none;
@@ -61,9 +54,25 @@ a{
 .icones {
     width: 250px;
     height: 250px; 
-    margin-bottom: 10%;
 }
-p{
+.texto {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.texto p {
+    margin-bottom: 2%;
+}
+.central{
     display: flex;
     justify-content: center;
+    margin-top: 5%;
 }
