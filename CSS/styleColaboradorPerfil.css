@@ -7,12 +7,7 @@ html {
     width: 100%;
 }
 
-main {
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    left: 5%;
-}
+
 
 header {
     display: flex;
@@ -20,6 +15,26 @@ header {
     justify-content: space-between;
     margin-bottom: 5%;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+
+footer {
+    position: absolute;
+    top: 95rem;
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    left: 20%;
+    bottom: 5%
+}
+
+
+
 
 .logo {
     margin-top: 8%;
@@ -43,24 +58,7 @@ header {
 
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-    height: 40rem;
-    width: 40rem;
 
-
-}
-
-footer {
-    position: absolute;
-    top: 95rem;
-    display: flex;
-    flex-direction: row;
-    width: 40rem;
-    left: 20%;
-    bottom: 5%
-}
 
 .separe {
     position: absolute;
@@ -73,108 +71,30 @@ a {
 
 }
 
-.btn {
+.btn { 
     width: 45%;
-    height: 3rem;
+    height:auto;
+    min-height: 120px;
     color: #000000;
     font-size: 3rem;
     background: #f0849c;
-    margin: 10% 50% 4% 10%;
-    padding: 8% 1% 5% 8%;
-    text-decoration: none;
-    font-weight: bold;
-
-}
-
-.btn2 {
-    width: 45%;
-    color: #000000;
-    font-size: 3rem;
-    background: #f0849c;
-    margin: 10% 50% 4% 9%;
-    padding: 5% 1% 5% 10%;
     text-decoration: none;
     font-weight: bold;
 }
 
-.btn3 {
-    width: 45%;
-    height: 5rem;
-    color: #000000;
-    font-size: 3rem;
-    background: #f0849c;
-    margin: 10% 50% 4% 11%;
-    padding: 8% 1% 5% 8%;
-    text-decoration: none;
-    font-weight: bold;
 
-}
-
-.btn4 {
-    border-radius: 0.8rem;
-    width: 22rem;
-    height: 7rem;
-    color: #000000;
-    font-size: 2.8rem;
-    background: #f0849c;
-
-    padding-top: 8%;
-    padding-left: 8%;
-    margin-top: 10%;
-    margin-left: 25%;
-
-    text-decoration: none;
-    font-weight: bold;
-
-}
 
 
 ul {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.align {
-    padding-left: 20%;
 
-
-}
-
-.align2 {
-    position: relative;
-    left: -10%;
-
-
-}
-
-.text1 {
-    position: relative;
+.text {
     font-size: 3.5rem;
     color: #6E6E6E;
-    top: -9rem;
-    left: 30rem;
-
-
-}
-
-
-.text2 {
-    position: relative;
-    font-size: 3.5rem;
-    color: #6E6E6E;
-    top: -9rem;
-    left: 32rem;
-
-
-}
-
-
-.text3 {
-    position: relative;
-    font-size: 3.5rem;
-    color: #6E6E6E;
-    top: -9rem;
-    left: 32rem;
 
 
 }
@@ -191,4 +111,23 @@ ul {
     height: 15rem;
 
 
+}
+
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 200px;
+}
+
+p{
+    font-size: 1.5rem;
+    min-width: 300px;
+    min-height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
