@@ -69,6 +69,8 @@ a{
 
 .texto p {
     margin-bottom: 2%;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
 }
 .central{
     display: flex;
