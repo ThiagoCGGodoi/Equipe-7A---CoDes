@@ -12,8 +12,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 5%;
-    padding-left: 5%;
 
 }
 
@@ -48,10 +46,12 @@ a {
 
 }
 
-.bell {
+.bell { position: absolute;
     height: 8rem;
     width: 8rem;
-    margin-bottom: 70%;
+    top: 5%;
+    left: 82%;
+
 
 }
 
