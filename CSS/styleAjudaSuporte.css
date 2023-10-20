@@ -3,9 +3,10 @@
 
 html {
     background-color: #d0bcc4;
-    font-family: "Bree Serif", sans-serif;
     height: 100%;
     width: 100%;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
 }
 
 header {

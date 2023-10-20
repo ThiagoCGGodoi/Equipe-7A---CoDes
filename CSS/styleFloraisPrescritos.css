@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
 html{
     background-color:white;
-    font-family: "Bree Serif",sans-serif;
     height: 100%;
     width: 100%;
 }
@@ -31,6 +30,7 @@ header{
 h1{
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 .btn {
     border-radius: 7%;
@@ -66,6 +66,7 @@ a{
 .prescricoes p {
     margin-top: 10%;
     margin-bottom: 15%;
+    font-family: 'Josefin Slab', serif;
 }
 .central{
     display: flex;

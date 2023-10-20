@@ -3,7 +3,6 @@
 
 html {
     background-color: white;
-    font-family: "Bree Serif", sans-serif;
     height: 100%;
     width: 100%;
 }
@@ -69,6 +68,8 @@ a {
     background: #60738c;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .btn2 {
@@ -80,6 +81,7 @@ a {
     background: #60738c;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     border-radius: 0.8rem;
 }
 
@@ -95,6 +97,8 @@ ul {
 .text {
     font-size: 2rem;
     color: #6E6E6E;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
 
 
 }
@@ -124,6 +128,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 
