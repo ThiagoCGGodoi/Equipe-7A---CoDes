@@ -29,10 +29,12 @@ main {
     padding-left: 5%;
     height: 30rem;
 
+
 }
 
-footer {
+footer { 
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     position: fixed;
     left: 0;
@@ -113,5 +115,22 @@ section {
     flex-direction: column;
     justify-content: center;
 
+
+}
+input{
+    border: solid #d0bcc4 ;
+    font-size: 2rem;
+    width: 31rem;
+    height: 3.2rem;
+    border-radius: 1.5rem;
+    margin-top: 4%;
+
+}
+
+
+.fig{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
