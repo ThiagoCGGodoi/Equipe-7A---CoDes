@@ -13,9 +13,6 @@ header {
     padding-left: 3%;
     padding-bottom: 5%;
     display: flex;
-    justify-content: baseline;
-
-
     font-size: 4rem;
     font-weight: bold;
 
@@ -60,7 +57,7 @@ section {
 }
 
 .person {
-    padding-left: -5%;
+    padding-left: 5%;
     height: 30rem;
     width: 30rem;
 }

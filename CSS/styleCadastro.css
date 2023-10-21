@@ -72,7 +72,7 @@ footer{
     align-items: center;
 }
 .btn {
-    border-radius: px;
+    border-radius: 9px;
     color: white;
     font-size: 4rem;
     background: #60738c;
