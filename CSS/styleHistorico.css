@@ -42,7 +42,16 @@ h1{
     text-decoration: none;
     font-weight: bold;
 }
-
+.btn2 {
+    border-radius: 7%;
+    color: white;
+    font-size: 3rem;
+    background: #384652;
+    margin: 10% 10% 4% 10%;
+    padding: 5% 10% 5% 10%;
+    text-decoration: none;
+    font-weight: bold;
+}
 footer {
     display: flex;
     justify-content: space-around;
