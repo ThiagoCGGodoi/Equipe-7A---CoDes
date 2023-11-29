@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
 
 
@@ -74,7 +74,7 @@ section {
     color: white;
     font-size: 2rem;
  
-    font-family: 'Bree Serif', serif;
+    font-family: 'Josefin Slab', serif;
 
 
 
@@ -92,8 +92,8 @@ section {
     color: white;
     font-size: 2rem;
     margin-bottom: 5%;
- 
-    font-family: 'Bree Serif', serif;
+
+    font-family: 'Josefin Slab', serif;
 
 
 

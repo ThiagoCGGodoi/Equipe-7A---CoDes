@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
 
 
@@ -129,6 +129,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 
 }
 .spaceE {
