@@ -31,14 +31,14 @@ header{
 h1{
     display: flex;
     justify-content: center;
-    font-size: 4rem;
+    font-size: 1.8rem;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 .btn {
     border-radius: 7%;
     color: white;
-    font-size: 3rem;
+    font-size: 1.3rem;
     background: #60738c;
     margin: 10% 10% 2% 10%;
     padding: 5% 10% 5% 10%;
@@ -52,15 +52,17 @@ h1{
 }
 footer {
     display: flex;
-    justify-content: space-around;
-    margin-top: 15%;
+    justify-content: space-evenly;
+    margin-inline: -20%;
+    margin-top: 11%;
+    padding-left: 5%;
 }
 a{
     text-decoration: none;
 }
 .icones {
-    width: 250px;
-    height: 250px; 
+    width: 6rem;
+    height: 6rem; 
     margin-bottom: 10%;
 }
 p{
