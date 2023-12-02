@@ -18,18 +18,19 @@ main{
 .subtitle{
     margin-left: 13%;
     margin-bottom: 5%;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .footnote{
     margin-left: 13%;
-    font-size: 2.1rem;
+    font-size: 0.9rem;
     font-weight: lighter;
 }
 .btn {
+    align-items: self-start;
     border-radius: 7%;
     color: #b8b8b8;
-    font-size: 4rem;
+    font-size: 1.8rem;
     background: #60738C;
     margin: 10%;
     padding: 5% 10% 5% 10%;
@@ -42,8 +43,8 @@ main{
     text-decoration: none;
 }
 .logo{
-    height: 37rem;
-    width: 30rem;
+    height: 12rem;
+    width: 10rem;
 }
 p{
     font-family: 'Roboto', sans-serif;
