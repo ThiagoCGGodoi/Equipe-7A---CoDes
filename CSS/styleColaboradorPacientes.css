@@ -1,70 +1,80 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
-html{
+
+html {
     background-color: white;
     height: 100%;
     width: 100%;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
+    margin-top: 6%;
+    margin-left: 6%;
+    height: 7rem;
+    width: 5rem;
+}
+
+.sino {
     margin-top: 8%;
-    margin-left: 8%;
-    height: 20%;
-    width: 20%;
+    margin-right: 5%;
+    height: 5rem;
+    width: 5rem;
 }
-.sino{
-    margin-top: 8%;
-    margin-right: 8%;
-    height: 20%;
-    width: 20%;
+
+.user {
+    margin-top: 38%;
+    height: 8rem;
+    width: 8rem;
 }
-.user{
-    margin-top: 28%;
-    height: 30%;
-    width: 30%;
-}
-h1{
+
+h1 {
     display: flex;
     margin-top: 10%;
     justify-content: center;
-    font-size: 4rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+
 .btn {
     border-radius: 7%;
     color: white;
-    font-size: 3rem;
+    font-size: 1.2rem;
     background: #60738c;
-    margin: 10% 10% 4% 10%;
-    padding: 5% 10% 5% 10%;
+    margin: 10% 0% 4% 0%;
+    padding: 5% 20% 5% 20%;
     text-decoration: none;
     font-weight: bold;
 }
 
-.principal{    
+.principal {
     display: flex;
     flex-direction: column;
     text-decoration: none;
 }
+
 footer {
     display: flex;
     justify-content: space-around;
-    margin-top: 15%;
+    margin-top: 9%;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .icones {
-    width: 250px;
-    height: 250px; 
+    width: 5rem;
+    height: 5rem;
     margin-bottom: 10%;
 }
-p{
+
+p {
     display: flex;
     justify-content: center;
     font-family: 'Josefin Slab', serif;
