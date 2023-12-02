@@ -1,141 +1,54 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
-
-html {
+html{
     background-color: white;
-    height: 90%;
-    width: 90%;
-    
+    height: 100%;
+    width: 100%;
 }
-
-body{
+header{
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 5%;
-}
-header {display: flex;
-    flex-direction: row;
     justify-content: center;
-    padding-bottom: 5%;
-    margin-left:5%
-  
-
-
-}
-
-main { display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-
-
-}
-
-button{ border-radius: 1rem;
-    border:solid #d0bcc4;
-
-
-}
-
-ul{
-    padding: 3.0%;
-}
-section{ width: 40rem;
-    border-bottom:  0.5rem solid  black;
-    line-height: 18%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-
-
-}
-input{
-    border: solid #d0bcc4 ;
-    font-size: 2rem;
-    width: 31rem;
-    height: 3.2rem;
-    border-radius: 0.5rem;
-    margin-top: 4%;
-
-}
-.letter{ 
-    display: inline-block;
-    font-size: 2.3rem;
-    position: absolute;
-    top:55.5%;
-
-    
-}
-.orange {
-    width: 40rem;
-    color: white;
-    font-size: 2.9rem;
-    background: #384652;
-    padding: 1%;
-    font-weight: bold;
-    font-family: 'Josefin Slab', serif;
-    margin-bottom: 5%;
-    margin-left: 5%;
-}
-
-a{text-decoration: none;
-
-}
-.orange1 {
-    margin-left: 5%;
-    width: 36rem;
-    color: white;
-    font-size: 2.9rem;
-    background: #384652;
-    padding: 1%;
-    font-weight: bold;
-    font-family: 'Josefin Slab', serif;
-}
-.gray { 
-    color: white;
-    gap:1rem;
-    margin-top: 10%;
-    width: 25rem;
-    font-size: 2.8rem;
-    background: #60738c;
-    padding: 4%;
-    font-family: 'Josefin Slab', serif;
-
-}
-.white {
     margin-top: 5%;
-    width: 30rem;
-    height: 2.5rem;
-    font-size: 2.5rem;
-    background: white;
-    padding-top: 5%;
-    font-family: 'Josefin Slab', serif;
-    border-radius: 0.8rem;
-    
-
+    margin-bottom: 5%;
 }
-.first{ display: flex;
-    flex-direction: row;
-
-
-}
-footer{position: absolute;
-    top: 100rem;
-    font-size: 2.1rem;
+main{
     display: flex;
     flex-direction: column;
-    width: 38rem;
-    align-items: center;
-    justify-content: space-between;
 }
-
-.ou{
-    background-color: #d0bcc4;
+.subtitle{
+    margin-left: 13%;
+    margin-bottom: 5%;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.footnote{
+    margin-left: 13%;
+    font-size: 2.1rem;
+    font-weight: lighter;
+}
+.btn {
+    border-radius: 7%;
+    color: #b8b8b8;
+    font-size: 4rem;
+    background: #60738C;
+    margin: 10%;
+    padding: 5% 10% 5% 10%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.principal{    
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
 .logo{
     height: 37rem;
     width: 30rem;
 }
-
+p{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
 

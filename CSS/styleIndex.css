@@ -1,54 +1,154 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
-html{
+
+html {
     background-color: white;
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
+    font-family: 'Josefin Slab', serif;
+    
 }
-header{
-    width: 100%;
+
+body{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+}
+header {display: flex;
+    flex-direction: row;
     justify-content: center;
+    padding-bottom: 5%;
+    margin-left:5%
+  
+
+
+}
+
+main { display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+button{ border-radius: 1rem;
+    border:solid #d0bcc4;
+
+
+}
+
+ul{
+    padding-top: 2.5%;
+
+}
+section{ width: 15rem;
+    border-bottom:  0.5rem solid  black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+input{
+    border: solid #d0bcc4 ;
+    font-size: 1.0rem;
+    width: 18rem;
+    height: 1.6rem;
+    border-radius: 0.5rem;
+    margin-top: 4%;
+
+}
+.letter{ 
+    background-color: white;
+    display: inline-block;
+    font-size: 1.5rem;
+    position: absolute;
+    top:54.5%;
+    background-size: cover;
+
+    
+}
+.orange {
+    width: 20rem;
+    color: white;
+    font-size: 1.5rem;
+    background: #384652;
+    padding: 1%;
+    font-weight: bold;
+    font-family: 'Josefin Slab', serif;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+a{text-decoration: none;
+
+}
+.orange1 {
+    margin-left: 5%;
+    width: 15rem;
+    color: white;
+    font-size: 1.5rem;
+    background: #384652;
+    padding: 1%;
+    font-weight: bold;
+    font-family: 'Josefin Slab', serif;
+}
+.gray { 
+    color: blue;
+    gap:1rem;
     margin-top: 5%;
-    margin-bottom: 5%;
+    width: 15rem;
+    font-size: 1.5rem;
+    background: #60738c;
+    padding: 4%;
+    font-family: 'Josefin Slab', serif;
+
 }
-main{
+.white {
+
+    width: 30rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    background: white;
+    font-family: 'Josefin Slab', serif;
+    border-radius: 0.8rem;
+    
+
+}
+.first{ display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+
+
+}
+footer{position: relative;
+    font-weight: bold;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
+    width: 38rem;
+    align-items: center;
+    justify-content: space-between;
 }
-.subtitle{
-    margin-left: 13%;
-    margin-bottom: 5%;
-    font-size: 3.5rem;
-    font-weight: bold;
-}
-.footnote{
-    margin-left: 13%;
-    font-size: 2.1rem;
-    font-weight: lighter;
-}
-.btn {
-    border-radius: 7%;
-    color: #b8b8b8;
-    font-size: 4rem;
-    background: #60738C;
-    margin: 10%;
-    padding: 5% 10% 5% 10%;
-    text-decoration: none;
-    font-weight: bold;
-}
-.principal{    
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
+
+.ou{
+    position: absolute;
+    top:1.2rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    font-weight: bold ;
+    background-color:white;
+    margin-left: -1rem;
+
+    
 }
 .logo{
-    height: 37rem;
-    width: 30rem;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-}
-a{
-    text-decoration: none;
+    height: 12rem;
+    width: 10rem;
 }
