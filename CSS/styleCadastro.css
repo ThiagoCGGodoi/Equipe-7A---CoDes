@@ -5,10 +5,9 @@ html{
     background-color: white;
     height: 100%;
     width: 100%;
+    
 }
 body{
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -18,81 +17,88 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 1.3rem;
     font-weight: bolder;
     font-style: normal;
     text-decoration: underline;
 
 }
 main{
-    padding: 5%;
-    height: 100%;
-    width: 100%;
+    padding: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.8rem;
+
 }
 .inputbox{
-    height: 2rem;
-    width: 25rem;
+    height: 1rem;
+    width: 12rem;
     border-radius: 0.8rem;
 }
 .inputs{
+    margin-top: 6%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 1.6rem;
+    gap: 2rem;
 }
 .labels{
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 .divider{
-    width: 90%;
+    width: 100%;
     height: 0.5rem;
     background-color: black;
 }
 .logo{
     display: flex;
     margin-top: 5%;
-    height: 37rem;
-    width: 30rem;
+    height: 12rem;
+    width: 10rem;
 }
 
 footer{
     display: flex;
-    width: 100%;
-    height: 22.5rem;
+    height: 0.5rem;
     position: absolute;
-    bottom: 0;
+    top:33rem;
+    left: 1rem;
     align-self: flex-end;
     justify-content: center;
     align-items: center;
 }
 .btn {
-    border-radius: 9px;
+    padding-bottom: 8%;
+    border-radius: 0.2rem;
     color: white;
-    font-size: 4rem;
+    font-size: 1.5rem;
     background: #60738c;
-    padding: 10px 20px 10px 20px;
+    padding: 6%;
     text-decoration: none;
     font-weight: bold;
     align-items: center;
     position: absolute;
-    top: 100%;
-    left: 35%;
+    top:5rem;
+    left: 8rem;
 }
 
 ul{
-    padding: 5%;
-    height: 100%;
+    padding-top: 5%;
+    padding-right: 5%;
+    height: 58%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 8%;
+    max-width: 100%; 
+    margin: 0 auto;
+    box-sizing: content-box;
+    
+
+
 }
 h1{
     font-family: 'Roboto', sans-serif;
