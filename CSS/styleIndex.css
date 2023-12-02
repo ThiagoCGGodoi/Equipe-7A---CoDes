@@ -3,8 +3,8 @@
 
 html { align-items: center;
     background-color: white;
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     font-family: 'Josefin Slab', serif;
     
 }
@@ -99,7 +99,7 @@ a{text-decoration: none;
     font-family: 'Josefin Slab', serif;
 }
 .gray { 
-    color: blue;
+    color: white;
     gap:1rem;
     margin-top: 5%;
     width: 15rem;
