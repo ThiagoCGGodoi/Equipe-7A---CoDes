@@ -3,7 +3,7 @@
 
 
 html {
-    background-color: white;
+    background-color: #ffffff;
     height: 100%;
     width: 100%;
 }
@@ -87,7 +87,7 @@ section {
 .btn2 {
     border: transparent;
     border-radius:1.8rem;
-    background: #b8b8b8;
+    background: #6d6d6d;
     width: 7rem;
     padding-top: 2%;
     padding-bottom: 2%;

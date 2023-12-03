@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
 html{
-    background-color: #d0bcc4;
+    background-color: #ffffff;
     height: 100%;
     width: 100%;
 }
@@ -33,9 +33,9 @@ h1{
 }
 .btn {
     border-radius: 7%;
-    color: #000000;
+    color: #ffffff;
     font-size: 1.5rem;
-    background: #f0849c;
+    background: #c1517a;
     margin: 6% 6% 4% 5%;
     padding: 5% 5% 5% 5%;
     text-decoration: none;

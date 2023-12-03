@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
 
 html {
-    background-color: white;
+    background-color: #ffffff;
     height: 100%;
     width: 100%;
 }
@@ -65,7 +65,7 @@ a {
     height:auto;
     min-height: 3rem;
     
-    color: white;
+    color: #ffffff;
     font-size: 1.15rem;
     background: #60738c;
     text-decoration: none;
@@ -101,7 +101,7 @@ ul {
 .text {
     width: 3rem;
     font-size: 1rem;
-    color: #6E6E6E;
+    color: #6d6d6d;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
 
@@ -110,14 +110,14 @@ ul {
 .seletor-do-texto {
     width: 3rem;
     font-size: 1rem;
-    color: #6E6E6E;
+    color: #6d6d6d;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
 }
 
 .subtext {
     font-size: 1.3rem;
-    color: black;
+    color: #384652;
 
 
 }
