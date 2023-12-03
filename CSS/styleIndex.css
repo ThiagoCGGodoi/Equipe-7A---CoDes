@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Roboto:wght@100&display=swap');
 
 html { align-items: center;
-    background-color: white;
+    background-color: #ffffff;
     height: 100%;
     width: 100%;
     font-family: 'Josefin Slab', serif;
@@ -46,7 +46,7 @@ ul{
 
 }
 section{ width: 15rem;
-    border-bottom:  0.5rem solid  black;
+    border-bottom:  0.5rem solid  #384652;
     margin-top: 10%;
     margin-bottom: 10%;
     display: flex;
@@ -56,7 +56,7 @@ section{ width: 15rem;
 
 }
 input{
-    border: solid #d0bcc4 ;
+    border: solid #6d6d6d ;
     font-size: 1.0rem;
     width: 18rem;
     height: 1.6rem;
@@ -65,7 +65,7 @@ input{
 
 }
 .letter{ 
-    background-color: white;
+    background-color: #ffffff;
     display: inline-block;
     font-size: 1.5rem;
     position: absolute;
@@ -76,7 +76,7 @@ input{
 }
 .orange {
     width: 20rem;
-    color: white;
+    color: #ffffff;
     font-size: 1.5rem;
     background: #384652;
     padding: 1%;
