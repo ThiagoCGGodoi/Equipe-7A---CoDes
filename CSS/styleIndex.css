@@ -36,7 +36,7 @@ main { display: flex;
 }
 
 button{ border-radius: 1rem;
-    border:solid #d0bcc4;
+    border:solid #6d6d6d;
 
 
 }
@@ -92,7 +92,7 @@ a{text-decoration: none;
 .orange1 {
     margin-left: 5%;
     width: 15rem;
-    color: white;
+    color: #ffffff;
     font-size: 1.5rem;
     background: #384652;
     padding: 1%;
@@ -100,7 +100,7 @@ a{text-decoration: none;
     font-family: 'Josefin Slab', serif;
 }
 .gray { 
-    color: white;
+    color: #ffffff;
     gap:1rem;
     margin-top: 5%;
     width: 15rem;
@@ -114,7 +114,7 @@ a{text-decoration: none;
 
     height: 2.5rem;
     font-size: 1.25rem;
-    background: white;
+    background: #ffffff;
     font-family: 'Josefin Slab', serif;
     border-radius: 0.8rem;
     
@@ -142,7 +142,7 @@ footer{position: relative;
     padding-right: 0.3rem;
     padding-left: 0.3rem;
     font-weight: bold ;
-    background-color:white;
+    background-color:#ffffff;
     margin-left: -1rem;
 
     
