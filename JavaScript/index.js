@@ -1,4 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
+    //Faces
+    var renato = document.querySelector("img.renato");
+    var fabio = document.querySelector("img.fabio");
+    var joao = document.querySelector("img.joao");
+
+    if (renato) {
+        renato.setAttribute('src', './imagens/Renato-Perfil.png');
+    }
+
+    if (fabio) {
+        fabio.setAttribute('src', './imagens/Fabio-Perfil.png');
+    }
+
+    if (joao) {
+        joao.setAttribute('src', './imagens/Joao-Perfil.png');
+    }
+
     // Sino
     let mode = document.querySelector('.sino');
     if (mode) {
@@ -19,17 +36,25 @@ document.addEventListener('DOMContentLoaded', function () {
         meuInput.name = "seuInputName";
         meuInput.autocomplete = "off";
 
+
+        let valorSalvo = localStorage.getItem('meuInputValue');
+
+        if (valorSalvo) {
+
+            meuInput.value = valorSalvo;
+        }
+
         meuInput.addEventListener('input', function () {
+
             localStorage.setItem('meuInputValue', meuInput.value);
         });
 
-        let valorSalvo = localStorage.getItem('meuInputValue');
-        if (valorSalvo) {
-            meuInput.value = valorSalvo;
-        }
+        window.addEventListener('beforeunload', function () {
+            localStorage.removeItem('meuInputValue');
+        });
     }
 
-    let contador = 1; // Mover a definição do contador para fora do evento
+    let contador = 1;
 
     meuInput.addEventListener('keypress', function (event) {
         if (event.key === 'Enter') {
@@ -37,16 +62,14 @@ document.addEventListener('DOMContentLoaded', function () {
             let existingContainer = main.querySelector('.btn2');
 
             if (contador < 2) {
-                // Se já existe um contêiner, substituir o conteúdo
                 let p = document.createElement('p');
                 p.style.fontSize = '1rem';
                 p.textContent = meuInput.value;
 
-                existingContainer.innerHTML = ''; // Limpar conteúdo existente
+                existingContainer.innerHTML = '';
                 existingContainer.appendChild(p);
                 contador += 1;
             } else {
-                // Se não existe um contêiner, criar um novo
                 let ul = document.createElement('ul');
                 ul.className = 'btn2';
                 let p = document.createElement('p');
@@ -57,11 +80,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 ul.style.position = 'absolute';
                 ul.style.top = '20rem';
                 ul.style.left = '15.5rem';
-                contador += 1; // Resetar o contador quando um novo contêiner é criado
+                contador += 1;
             }
 
             meuInput.value = '';
         }
-
     });
+
 });
