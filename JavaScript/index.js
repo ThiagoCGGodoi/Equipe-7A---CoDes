@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+    //Chat
 
     let meuInput = document.querySelector("body > footer > ul > li > input");
 
