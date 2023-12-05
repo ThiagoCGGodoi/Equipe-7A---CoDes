@@ -72,11 +72,29 @@ a {
 .person {
     position: relative;
     bottom: 0.1rem;
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 6rem;
+    height: 6rem;
 
 }
 
+.joao {
+    position: relative;
+    top: 0.5rem;
+    width: 6rem;
+    height: 6rem;
+}
+.fabio {
+    position: relative;
+    top: 0.5rem;
+    width: 6rem;
+    height: 6rem;
+}
+.renato {
+    position: relative;
+    top: 0.5rem;
+    width: 6rem;
+    height: 6rem;
+}
 .icones {
 
     display: flex;
