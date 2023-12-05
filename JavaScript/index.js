@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         meuInput.addEventListener('input', function () {
             localStorage.setItem('meuInputValue', meuInput.value);
-            console.log('Valor do input atualizado:', meuInput.value);
         });
 
         let valorSalvo = localStorage.getItem('meuInputValue');
